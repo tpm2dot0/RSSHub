@@ -6583,9 +6583,6 @@
   "/right/forum/:id?": [
     "nczitzk"
   ],
-  "/rockthejvm/articles": [
-    "nczitzk"
-  ],
   "/rodong/news/:language?": [
     "TonyRL"
   ],
