@@ -156,8 +156,8 @@ importers:
         specifier: 0.6.3
         version: 0.6.3
       imapflow:
-        specifier: 1.0.195
-        version: 1.0.195
+        specifier: 1.0.196
+        version: 1.0.196
       instagram-private-api:
         specifier: 1.46.1
         version: 1.46.1
@@ -3139,6 +3139,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   decamelize-keys@2.0.1:
     resolution: {integrity: sha512-nrNeSCtU2gV3Apcmn/EZ+aR20zKDuNDStV67jPiupokD3sOAFeMzslLMCFdKv1sPqzwoe5ZUhsSW9IAVgKSL/Q==}
     engines: {node: '>=14.16'}
@@ -4008,8 +4017,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  imapflow@1.0.195:
-    resolution: {integrity: sha512-707XAHLLD8cgeHKKQn6T+k6K8ZoNV5r+C0rC+2xk0rOQPw2qkxF7/magh+8zygXtHtjY9eJ9m45SB2jX7H4wdw==}
+  imapflow@1.0.196:
+    resolution: {integrity: sha512-KJ1pgT01qFm/7iwvA3dCMER5t5A0zD8OKpW5eEQ73XCrezrn4hO71nEycFIrV0IyqQXMgIhD6qDldgoZcTEjww==}
 
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
@@ -4766,8 +4775,8 @@ packages:
     resolution: {integrity: sha512-9O00Vh89/Ld2EcVCqJ/etd7u20UhME0f/NToPfArwPEe1Don1zy4mAIz6ariRr7mJ2RDxtaDzN0WJVdVXPtZaw==}
     engines: {node: '>=6.0.0'}
 
-  nodemailer@7.0.5:
-    resolution: {integrity: sha512-nsrh2lO3j4GkLLXoeEksAMgAOqxOv6QumNRVQTJwKH4nuiww6iC2y7GyANs9kRAxCexg3+lTWM3PZ91iLlVjfg==}
+  nodemailer@7.0.6:
+    resolution: {integrity: sha512-F44uVzgwo49xboqbFgBGkRaiMgtoBrBEWCVincJPK9+S9Adkzt/wXCLKbf7dxucmxfTI5gHGB+bEmdyzN6QKjw==}
     engines: {node: '>=6.0.0'}
 
   nopt@7.2.1:
@@ -5008,8 +5017,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.9.0:
-    resolution: {integrity: sha512-zxsRIQG9HzG+jEljmvmZupOMDUQ0Jpj0yAgE28jQvvrdYTlEaiGwelJpdndMl/MBuRr70heIj83QyqJUWaU8mQ==}
+  pino@9.9.5:
+    resolution: {integrity: sha512-d1s98p8/4TfYhsJ09r/Azt30aYELRi6NNnZtEbqFw6BoGsdPVf5lKNK3kUwH8BmJJfpTLNuicjUQjaMbd93dVg==}
     hasBin: true
 
   pluralize@8.0.0:
@@ -6238,7 +6247,7 @@ snapshots:
       '@babel/traverse': 7.28.4
       '@babel/types': 7.28.4
       convert-source-map: 2.0.0
-      debug: 4.4.1
+      debug: 4.4.3
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -6928,7 +6937,7 @@ snapshots:
       '@babel/parser': 7.28.0
       '@babel/template': 7.27.2
       '@babel/types': 7.28.4
-      debug: 4.4.1
+      debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
@@ -9081,6 +9090,10 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
+  debug@4.4.3:
+    dependencies:
+      ms: 2.1.3
+
   decamelize-keys@2.0.1:
     dependencies:
       decamelize: 6.0.0
@@ -10128,7 +10141,7 @@ snapshots:
 
   image-size@0.7.5: {}
 
-  imapflow@1.0.195:
+  imapflow@1.0.196:
     dependencies:
       encoding-japanese: 2.2.0
       iconv-lite: 0.7.0
@@ -10136,8 +10149,8 @@ snapshots:
       libmime: 5.3.7
       libqp: 2.1.1
       mailsplit: 5.4.6
-      nodemailer: 7.0.5
-      pino: 9.9.0
+      nodemailer: 7.0.6
+      pino: 9.9.5
       socks: 2.8.7
 
   import-fresh@3.3.1:
@@ -10970,7 +10983,7 @@ snapshots:
 
   nodemailer@7.0.4: {}
 
-  nodemailer@7.0.5: {}
+  nodemailer@7.0.6: {}
 
   nopt@7.2.1:
     dependencies:
@@ -11219,7 +11232,7 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.9.0:
+  pino@9.9.5:
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.5.0
@@ -11384,7 +11397,7 @@ snapshots:
     dependencies:
       '@puppeteer/browsers': 2.10.3
       chromium-bidi: 5.1.0(devtools-protocol@0.0.1439962)
-      debug: 4.4.1
+      debug: 4.4.3
       devtools-protocol: 0.0.1439962
       typed-query-selector: 2.12.0
       ws: 8.18.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
