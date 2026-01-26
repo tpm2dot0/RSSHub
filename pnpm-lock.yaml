@@ -54,8 +54,8 @@ importers:
         specifier: 0.19.10
         version: 0.19.10(hono@4.8.7)(zod@3.25.76)
       '@notionhq/client':
-        specifier: 4.0.1
-        version: 4.0.1
+        specifier: 5.8.0
+        version: 5.8.0
       '@opentelemetry/api':
         specifier: 1.9.0
         version: 1.9.0
@@ -1700,8 +1700,8 @@ packages:
     resolution: {integrity: sha512-y3SvzjuY1ygnzWA4Krwx/WaJAsTMP11DN+e21A8Fa8PW1oDtVB5NSRW7LWurAiS2oKRkuCgcjTYMkBuBkcPCRg==}
     engines: {node: '>=12.4.0'}
 
-  '@notionhq/client@4.0.1':
-    resolution: {integrity: sha512-SdILqiiThECLR2KDUOvl4JqRaJWBwDYaEw/f0qu+G6rKN/QUCkaJ84vN5MgBw1yKsMAsKxBlDazs3Jw6vv2ikA==}
+  '@notionhq/client@5.8.0':
+    resolution: {integrity: sha512-CcmZ+wVDYVFmfCIjoU50x/9j8uhRPF8u23FbEQJhT1ACwn3dbCl6GRN+JMMyQmuVLJlMF7ckpPehDgmprbFtDw==}
     engines: {node: '>=18'}
 
   '@one-ini/wasm@0.1.1':
@@ -5664,6 +5664,7 @@ packages:
   tar@7.5.2:
     resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   telegram@2.26.22:
     resolution: {integrity: sha512-EIj7Yrjiu0Yosa3FZ/7EyPg9s6UiTi/zDQrFmR/2Mg7pIUU+XjAit1n1u9OU9h2oRnRM5M+67/fxzQluZpaJJg==}
@@ -7655,7 +7656,7 @@ snapshots:
 
   '@nolyfill/side-channel@1.0.44': {}
 
-  '@notionhq/client@4.0.1': {}
+  '@notionhq/client@5.8.0': {}
 
   '@one-ini/wasm@0.1.1': {}
 
