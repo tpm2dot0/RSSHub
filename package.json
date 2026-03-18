@@ -170,7 +170,7 @@
         "@vercel/nft": "0.30.4",
         "@vitest/coverage-v8": "2.1.9",
         "discord-api-types": "0.38.39",
-        "domhandler": "5.0.3",
+        "domhandler": "6.0.1",
         "eslint": "9.31.0",
         "eslint-config-prettier": "10.1.8",
         "eslint-nibble": "8.1.0",
